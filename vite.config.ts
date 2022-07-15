@@ -12,7 +12,10 @@ import VueI18n from '@intlify/vite-plugin-vue-i18n';
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [
-		vue(),
+		vue({
+			include: [/\.vue$/,/\$/],
+		}),
+
 		Components({
 			dts: true,
 			resolvers: [

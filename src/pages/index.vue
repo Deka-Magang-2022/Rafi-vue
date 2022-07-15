@@ -11,40 +11,64 @@
 
 <template>
 	<div class="grid place-items-center min-h-[80vh]">
-		<div>
-			<img :src="VitailseLogo" width="300" class="mx-auto" />
-			<p class="lg:text-left text-center">
-				{{ t('intro.desc') }}
-				<a
-					href="https://tailwindcss.com/"
-					class="text-blue-500 hover:underline"
-					>TailwindCSS</a
-				>
-			</p>
-			<p class="text-center">
-				{{ t('intro.github') }}
-				<a
-					class="text-blue-500 hover:underline"
-					href="https://github.com/zynth17/vitailse"
-					>Github Repo</a
-				>
-			</p>
-			<div class="mt-5 text-center">
-				<button
-					@click="store.$state.count++"
-					class="
-						px-4
-						py-2
-						dark:bg-blue-800
-						bg-blue-500
-						text-white
-						rounded
-					"
-				>
-					Count : {{ store.$state.count }}
-				</button>
+		<div class="grid bg-emerald-400 border-4 border-red-600 text-stone-900 dark:bg-green-600/40 px-10 py-10 shadow-2x1
+		dark:shadow-sky-500 rounded w-full max-w-2xl dark:border-teal-400 text-center place-items-center
+		dark:text-yellow-500 ouline outline-dark-900 min-h-[80vh]">
+			<div class="grid max-w-2xl text-center rounded-full place-items-center">	
+				<img :src="VitailseLogo" width="300" class="mx-auto" />
+			
+			</div>
+			<div>
+				<h1 class="uppercase font-hold text-xl mt-10">PROFIL</h1>
+				<div class="text-capitalize text-center	 ">
+					<p>Nama : M.Rafi Nur Rizki</p>
+					<p>Tanggal Lahir : 10-mei-2005</p>
+					<p>Agama : islam</p>
+					<p>Jenis Kelamin : laki-laki</p>
+				</div>
+			<div>
+				<h1 class="uppercase font-hold text-xl mt-10">contact</h1>
+				<div class="text-capitalize text-center	 ">
+					<p>No Telepon : 0821-5520-4061</p>
+					<p>Email : kaptraf369@gmail.com</p>
+				</div>
+			<div>
+				<h1 class="uppercase font-hold text-xl mt-10">Hobby</h1>
+				<div class="text-capitalize text-center  ">
+					<p>-Game</p>
+					<p>-bulu tangkis</p>
+				</div>
+			</div>
+			<div>
+				<h1 class="uppercase font-hold text-xl mt-10">Education</h1>
+				<div class="text-capitalize text-center ">
+					<p>SD : SDN 005</p>
+					<P>SMP : MTS SULAIMAN YASIN</P>
+					<P>SMK : TI AIRLANGGA SAMARINDA</P>
+				</div>
+			</div>
+			<div>
+				<h1 class="uppercase font-hold text-xl mt-10">skill</h1>
+				<div class="text-capitalize text-center ">
+				<p>- Laravel Framework PHP</p>
+				<p>- css</p>
+				<p>- html</p>
+				<p>- javascript</p>
+				</div>
+			</div>
+			<div>
+				<h1 class="uppercase font-hold text-xl mt-10">About</h1>
+				<p class="text-sm text-justify ">Siswa Ti yang Bermotivasi Ingin Mempelajari Programming</p>
+			</div>
+			<div class="">
+				<a href="todo-list">Next</a>
+
 			</div>
 		</div>
+		</div>
+			
+		</div>
+
 		<router-link
 			:to="{ name: 'other-page' }"
 			class="
