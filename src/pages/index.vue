@@ -43,8 +43,8 @@
 				<h1 class="uppercase font-hold text-xl mt-10">Education</h1>
 				<div class="text-capitalize text-center ">
 					<p>SD : SDN 005</p>
-					<P>SMP : MTS SULAIMAN YASIN</P>
-					<P>SMK : TI AIRLANGGA SAMARINDA</P>
+					<p>SMP : MTS SULAIMAN YASIN</p>
+					<p>SMK : TI AIRLANGGA SAMARINDA</p>
 				</div>
 			</div>
 			<div>
