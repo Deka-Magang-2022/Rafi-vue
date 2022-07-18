@@ -36,8 +36,8 @@
 			<div>
 				<h1 class="uppercase font-hold text-xl mt-10">Hobby</h1>
 				<div class="text-capitalize text-center  ">
-					<p>-Game</p>
-					<p>-bulu tangkis</p>
+					<p>-Gaming</p>
+					<p>-Bulu Tangkis</p>
 				</div>
 			</div>
 			<div>
@@ -65,6 +65,8 @@
 			<div class="">
 				<a href="todo-list">Next</a>
 				<a href="color-switcher">Color Swicther</a>
+				<a href="kalkulator">Kalkulator</a>
+
 
 			</div>
 		</div>

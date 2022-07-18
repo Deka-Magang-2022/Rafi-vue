@@ -22,7 +22,7 @@ store.text  = 'text-white'
 			</div>
 
             <div class="grid grid-cols-4 gap-5">
-                <button type="button" @click="store.text = 'text-blue-500'" class="bg-blue-500 hover:text-green-600 text-blue px-4 py-2 rounded-md">Ganti text</button>
+                <button type="button" @click="store.text = 'text-blue-500'" class="bg-blue-500 hover:text-green-600 text-white px-4 py-2 rounded-md">Ganti text</button>
 				<button type="button" @click="store.text = 'text-red-500'" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md">Ganti text</button>
 				<button type="button" @click="store.text = 'text-green-500'" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md">Ganti text</button>
 				<button type="button" @click="store.text = 'text-black'" class="bg-black hover:bg-black/80 text-white px-4 py-2 rounded-md">Ganti text</button>
