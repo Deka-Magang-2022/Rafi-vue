@@ -43,9 +43,9 @@
 			<div>
 				<h1 class="uppercase font-hold text-xl mt-10">Education</h1>
 				<div class="text-capitalize text-center ">
-					<p><a href="https://www.google.com/maps/place/Gedung+Pertemuan+SDN+005+Samarinda+Ilir/@-0.4934727,117.1621823,20.67z/data=!4m12!1m6!3m5!1s0x2df67fa51beb797f:0x545bae808dedfa6e!2sSMP+NEGERI+6+SAMARINDA!8m2!3d-0.4911339!4d117.1612508!3m4!1s0x2df67f4e0eadf647:0x8f9a35f10941ce04!8m2!3d-0.4934272!4d117.1622486"> * SDN 005</a> </p>
-					<P><a href="https://www.google.com/maps/place/Madrasah+Tsanawiyah+Sulaiman+Yasin/@-0.4909931,117.1571426,17z/data=!3m1!4b1!4m5!3m4!1s0x2df67f6f3984dca3:0xd7a44486b8fde19b!8m2!3d-0.4909985!4d117.1593313"> * MTS SULAIMAN YASIN</a></P>
-					<P><a href="https://www.google.com/maps/place/SMKTI+Airlangga/@-0.4851169,117.1462529,17z/data=!3m1!4b1!4m5!3m4!1s0x2df67f1489bfeb63:0xe1ef6869246e2125!8m2!3d-0.4851223!4d117.1484416">* SMK TI AIRLANGGA</a></P>
+					<p><a class="text-black-700 dark:text-sky-300 dark:hover:text-sky-200 font-semibold" href="https://www.google.com/maps/place/Gedung+Pertemuan+SDN+005+Samarinda+Ilir/@-0.4934727,117.1621823,20.67z/data=!4m12!1m6!3m5!1s0x2df67fa51beb797f:0x545bae808dedfa6e!2sSMP+NEGERI+6+SAMARINDA!8m2!3d-0.4911339!4d117.1612508!3m4!1s0x2df67f4e0eadf647:0x8f9a35f10941ce04!8m2!3d-0.4934272!4d117.1622486"> * SDN 005</a> </p>
+					<P><a class="text-black-700 dark:text-sky-300 dark:hover:text-sky-200 font-semibold" href="https://www.google.com/maps/place/Madrasah+Tsanawiyah+Sulaiman+Yasin/@-0.4909931,117.1571426,17z/data=!3m1!4b1!4m5!3m4!1s0x2df67f6f3984dca3:0xd7a44486b8fde19b!8m2!3d-0.4909985!4d117.1593313"> * MTS SULAIMAN YASIN</a></P>
+					<P><a class="text-black-700 dark:text-sky-300 dark:hover:text-sky-200 font-semibold" href="https://www.google.com/maps/place/SMKTI+Airlangga/@-0.4851169,117.1462529,17z/data=!3m1!4b1!4m5!3m4!1s0x2df67f1489bfeb63:0xe1ef6869246e2125!8m2!3d-0.4851223!4d117.1484416">* SMK TI AIRLANGGA</a></P>
 				</div>
 			</div>
 			<div>
@@ -60,31 +60,23 @@
 			</div>
 			<div>
 				<h1 class="uppercase font-hold text-xl mt-10">About</h1>
-				<p class="text-sm text-justify ">Siswa Ti yang Bermotivasi Ingin Mempelajari Programming</p>
+				<p class="text-capitalize text-center ">Siswa Ti yang Bermotivasi Ingin Mempelajari Programming</p>
 			</div>
-			<div class="">
-				<a href="todo-list">Next</a>
-				<a href="color-switcher">Color Swicther</a>
-				<a href="kalkulator">Kalkulator</a>
 
-
+			<div class="max-w-2xl w-full grid grid-flow-row grid-cols-3 gap-5 mt-10 px-4 py-3">
+				<a href="todo-list" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Halaman Todo List</a>
+				<a href="color-switcher" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Color Swicther</a>
+				<a href="kalkulator" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Kalkulator</a>
+				<a href="random-number" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Halaman RNG</a>
 			</div>
+			<div class="flexs items-center">...</div>
+
+			
 		</div>
 		</div>
 			
 		</div>
 
-		<router-link
-			:to="{ name: 'other-page' }"
-			class="
-				mt-5
-				text-center
-				hover:text-gray-200
-				dark:hover:text-gray-500
-				hover:underline
-			"
-			>{{ t('pages.other.menu') }}</router-link
-		>
 	</div>
 </template>
 
