@@ -1,25 +1,17 @@
 <script setup lang="ts">
-
-import Bulan1 from '@/assets/bulan1.md';
-
-useHead({
-    title: 'jurnal',
-});
-
-// const rafiAngka = [1,1,2,2,2,3,4,4,5,5,5];
-// const arrayAngka = [...new Set(rafiAngka)];
-
-// console.log(arrayAngka);
-
+	import Markdown from '@/assets/markdown.md';
+	useHead({
+		title: 'jurnal',
+	});
+	
 </script>
 
 <template>
-    <div>
-    
-    <div class="my-10 prose border border-black rounded-md p-10">
-        <Bulan1 />
-    </div>
-    <router-link
+	<div class="">
+		<div class="my-10 prose border border-black rounded-md p-10 dark:bg-white">
+			<Markdowns />
+		</div>
+		<router-link
 			:to="{ name: 'home' }"
 			class="
 				mt-5
@@ -32,8 +24,7 @@ useHead({
 	</div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
 
 <route lang="yaml">
 name: jurnal
