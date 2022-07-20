@@ -67,13 +67,12 @@
 				<a href="todo-list" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Halaman Todo List</a>
 				<a href="color-switcher" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Color Swicther</a>
 				<a href="kalkulator" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Kalkulator</a>
-				<a href="jurnal" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Halaman Jurnal</a>
 				<a href="rng" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Halaman RNG</a>
 				<a href="rdn" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Halaman RDN</a>
 				<router-link
 				:to="{ name: 'jurnal' }"
-				class="mt-5 hover:text-gray-200 dark:hover:text-gray-500 hover:underline"
-				>jurnal</router-link
+				class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline"
+				>Jurnal Harian</router-link
 				>
 				<!-- <a href="random-number" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Halaman RNG</a> -->
 			</div>
