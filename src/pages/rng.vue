@@ -13,10 +13,12 @@
 </script>
 
 <template>
-	<div class="min-h-[80vh]">
+	<div class="min-h-[80vh] dark:text-black">
 		<div class="max-w-lg mb-10 border border-gray-700 rounded-md p-5">
 			<div class="w-full">
 				<input disabled class="w-full rounded-md px-4 py-2 text-right" type="text" v-model="store.input">
+			</div>
+			<div class="w-full grid grid-cols-2 gap-5 mt-5">
 			</div>
 			<div class="w-full grid grid-flow-row gap-5 mt-5">
 				<button @click="generateRandom()" type="button" class="border border-gray-700 p-4 bg-gray-100 rounded-md">
@@ -30,6 +32,7 @@
 				hover:text-gray-500
 				dark:hover:text-gray-200
 				hover:underline
+				dark:text-white
 			"
 			>{{ $t('pages.home') }}</router-link
 		>
