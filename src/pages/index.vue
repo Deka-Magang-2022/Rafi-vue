@@ -69,6 +69,8 @@
 				<a href="kalkulator" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Kalkulator</a>
 				<a href="rng" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Halaman RNG</a>
 				<a href="rdn" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Halaman RDN</a>
+				<a href="halaman" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Halaman</a>
+
 				<router-link
 				:to="{ name: 'jurnal' }"
 				class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline"
