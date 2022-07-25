@@ -2,15 +2,15 @@
 	useHead({
 		title: 'halaman',
 	});
-import Sv1 from '@/assets/img/bg2.png';
-import Sv2 from '@/assets/img/bg1.png';
-import Sv3 from '@/assets/img/bg3.png';
-import Sv4 from '@/assets/img/bg4.png';
-import Sv5 from '@/assets/img/bg5.png';
-import Sv6 from '@/assets/img/bg6.png';
-import Sv7 from '@/assets/img/bg7.png';
-import Sv8 from '@/assets/img/bg8.png';
-import Sv9 from '@/assets/img/bg9.png';
+import bg1 from '@/assets/img/bg2.png';
+import bg2 from '@/assets/img/bg1.png';
+import bg3 from '@/assets/img/bg3.png';
+import bg4 from '@/assets/img/bg4.png';
+import bg5 from '@/assets/img/bg5.png';
+import bg6 from '@/assets/img/bg6.png';
+import bg7 from '@/assets/img/bg7.png';
+import bg8 from '@/assets/img/bg8.png';
+import bg9 from '@/assets/img/bg9.png';
 </script>
 
 <template>
@@ -47,7 +47,7 @@ import Sv9 from '@/assets/img/bg9.png';
 							href="">get started</a>
 					</div>
 					<div class="flex justify-end w-auto h-72 px-32">
-						<img :src="Sv1">
+						<img :src="bg1">
 					</div>
 				</div>
 			</div>
@@ -66,15 +66,15 @@ import Sv9 from '@/assets/img/bg9.png';
 			</div>
 			<div class="row-span-2 grid grid-cols-3 grid-rows-3  bg-yellow-500 col-span-2">
 
-				<div class=" flex justify-center  bg-red-500 "><img :src="Sv1" width=""></div>
-				<div class=" flex justify-center  bg-blue-500 "><img :src="Sv2" width=""></div>
-				<div class=" flex justify-center  bg-green-500 "><img :src="Sv3" width=""></div>
-				<div class=" flex justify-center  bg-gray-500 "><img :src="Sv4" width=""></div>
-				<div class=" flex justify-center  bg-purple-500 "><img :src="Sv5" width=""></div>
-				<div class=" flex justify-center  bg-amber-500 "><img :src="Sv6" width=""></div>
-				<div class=" flex justify-center  bg-cyan-500 "><img :src="Sv7" width=""></div>
-				<div class=" flex justify-center  bg-blue-500 "><img :src="Sv8" width=""></div>
-				<div class=" flex justify-center  bg-sky-500 "><img :src="Sv9" width=""></div>
+				<div class=" flex justify-center  bg-red-500 "><img :src="bg1" width=""></div>
+				<div class=" flex justify-center  bg-blue-500 "><img :src="bg2" width=""></div>
+				<div class=" flex justify-center  bg-green-500 "><img	 :src="bg3" width=""></div>
+				<div class=" flex justify-center  bg-gray-500 "><img :src="bg4" width=""></div>
+				<div class=" flex justify-center  bg-purple-500 "><img :src="bg5" width=""></div>
+				<div class=" flex justify-center  bg-amber-500 "><img :src="bg6" width=""></div>
+				<div class=" flex justify-center  bg-cyan-500 "><img :src="bg7" width=""></div>
+				<div class=" flex justify-center  bg-blue-500 "><img :src="bg8" width=""></div>
+				<div class=" flex justify-center  bg-sky-500 "><img :src="bg9" width=""></div>
 			</div>
 		</div>
 	</div>
