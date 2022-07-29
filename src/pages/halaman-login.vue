@@ -27,8 +27,7 @@
                         </div>
                         <div class="flex justify-center items-baseline bg-green-600 border-8 border-green-500">
                              <a href="#" class="text-sm hover:underline hover:text-white">Register new account?</a>
-                        </div>
-
+                        </div>  
                     </div>
                 </div>
                 <div>

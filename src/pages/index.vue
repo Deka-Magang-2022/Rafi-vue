@@ -4,7 +4,6 @@
 	useHead({
 		title: 'Vitailse | Opinionated vite starter template',
 	});
-
 	const store = useStore();
 	const { t } = useI18n();
 </script>
@@ -71,7 +70,7 @@
 				<a href="rdn" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Halaman RDN</a>
 				<a href="halaman" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Halaman</a>
 				<a href="halaman-login" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Halaman login</a>
-
+				<a href="netflix" class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline">Halaman netflix</a>
 				<router-link
 				:to="{ name: 'jurnal' }"
 				class="px-4 py-3 bg-red-600 border-double border-4 border-black-500 rounded-md mt-5 text-center text-sm text-justify hover:text-gray-500 dark:hover:text-black hover:underline"
