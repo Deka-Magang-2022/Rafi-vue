@@ -1,6 +1,6 @@
 <script setup lang="ts">
 	useHead({
-		title: 'Halaman Netflix',
+		title: 'Netflix',
 	});
 	
 </script>
